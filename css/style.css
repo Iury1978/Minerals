@@ -97,10 +97,10 @@ html {
 
 /* max-width 100 что бы картинка не выпадала из родителя
 height auto, что бы картинки не искажались*/
-img {
+/* img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 button {
   padding: 0;
@@ -144,7 +144,7 @@ body {
 }
 
 .wrapper {
-  padding: 0 160px;
+  width: 1600px;
   margin: 0 auto;
 }
 
@@ -194,8 +194,6 @@ body {
   padding-bottom: 36px;
   background: transparent;
 }
-
-.header__logo {}
 
 .nav__list {
   display: flex;
@@ -270,7 +268,7 @@ body {
 }
 
 .nav__select-lang {
- background: transparent;
+  background: transparent;
   border: 0;
   margin-left: 9px;
   width: 83px;
@@ -286,3 +284,75 @@ body {
   border: 0;
 }
 
+/* section full range services */
+.full-range-services__flex-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  column-gap: 74px;
+
+}
+
+.full-range-services__title {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 55px;
+  color: #FFFFFF;
+  padding-top: 143px;
+  margin-bottom: 24px;
+}
+
+.full-range-services__desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.full-range-services__items {
+  width: 817px;
+  display: flex;
+  justify-content: space-between;
+column-gap: 30px;
+  margin-bottom: 38px;
+  margin-left: 14px;
+}
+.full-range-services__item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #C8D7EB;
+}
+.full-range-services__item::before {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 1px;
+  height: 13px;
+  left: -14px;
+  top: 3px;
+  background: #C8D7EB;
+}
+
+.button-blue {
+  padding: 16px 31px 19px;
+  background: #2797FF;
+  border-radius: 10px;
+  border: none;
+}
+
+.full-range-services_button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.full-range-services__photo {
+  background: linear-gradient(0deg, rgba(0, 10, 100, 0.3), rgba(0, 10, 100, 0.3)), url(RC-бурение-_-RC-drilling.png), #C4C4C4;
+  border-radius: 10px;
+}
