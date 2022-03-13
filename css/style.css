@@ -149,6 +149,12 @@ body {
 }
 
 /* HEADER */
+.header {
+  position: fixed;
+  left: 0;
+  width: 100%;
+
+}
 
 .creeping-line {
   height: 48px;
@@ -285,12 +291,21 @@ body {
 }
 
 /* section full range services */
+
+.full-range-services {
+  background: linear-gradient(180deg, #5B7BB7 0%, #6196CB 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 849px;
+}
+
 .full-range-services__flex-container {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: space-between;
   column-gap: 74px;
-
+  margin-bottom: 217px;
+  padding-top: 244px;
 }
 
 .full-range-services__title {
@@ -298,7 +313,7 @@ body {
   font-size: 58px;
   line-height: 55px;
   color: #FFFFFF;
-  padding-top: 143px;
+  /* padding-top: 143px; */
   margin-bottom: 24px;
 }
 
@@ -309,14 +324,16 @@ body {
   color: #FFFFFF;
   margin-bottom: 40px;
 }
+
 .full-range-services__items {
   width: 817px;
   display: flex;
   justify-content: space-between;
-column-gap: 30px;
+  column-gap: 30px;
   margin-bottom: 38px;
   margin-left: 14px;
 }
+
 .full-range-services__item {
   display: flex;
   flex-direction: column;
@@ -326,6 +343,7 @@ column-gap: 30px;
   line-height: 20px;
   color: #C8D7EB;
 }
+
 .full-range-services__item::before {
   position: absolute;
   content: '';
@@ -353,6 +371,5 @@ column-gap: 30px;
 }
 
 .full-range-services__photo {
-  background: linear-gradient(0deg, rgba(0, 10, 100, 0.3), rgba(0, 10, 100, 0.3)), url(RC-бурение-_-RC-drilling.png), #C4C4C4;
   border-radius: 10px;
 }
