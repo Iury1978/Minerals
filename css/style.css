@@ -313,7 +313,6 @@ body {
   font-size: 58px;
   line-height: 55px;
   color: #FFFFFF;
-  /* padding-top: 143px; */
   margin-bottom: 24px;
 }
 
@@ -372,4 +371,71 @@ body {
 
 .full-range-services__photo {
   border-radius: 10px;
+}
+
+/* section about */
+.about__description {
+  display: flex;
+  align-items: center;
+  column-gap: 89px;
+  margin-top: 147px;
+  margin-bottom: 82px;
+
+}
+
+.about__img {
+  margin-left: 51px;
+  margin-bottom: -11px;
+
+}
+
+.about__tilte {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 46px;
+  color: #FFFFFF;
+  margin-bottom: 19px;
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+  padding-right: 3px;
+}
+
+.about__cards {
+  display: flex;
+  justify-content: center;
+  column-gap: 38px;
+  margin-bottom: 130px;
+}
+
+
+
+.about__card-photo {
+  border-radius: 10px;
+  width: 100%;
+  transition: .15s all;
+}
+
+.about__card:hover .about__card-photo {
+  box-shadow: 0px 8px 15px 8px rgb(0, 0, 0);
+}
+
+.about__card__name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-top: 34px;
+  margin-bottom: 16px;
+}
+
+.about__card__phrase {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
 }
