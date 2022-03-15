@@ -162,6 +162,9 @@ body {
   display: flex;
   column-gap: 97px;
   align-items: center;
+  /* position: fixed;
+  left: 0;
+  width: 100%; */
 }
 
 .creeping-line__name:first-child {
@@ -518,4 +521,66 @@ body {
 .text-image {
   margin-right: 9px;
   margin-top: 4px;
+}
+
+/* our-qualities */
+
+.our-qualities__title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 46px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 160px;
+  text-transform: uppercase;
+  margin-bottom: 53px;
+}
+
+.our-qualities__cards {
+  display: grid;
+  column-gap: 35px;
+  row-gap: 35px;
+  grid-template-rows: repeat(2, 275px);
+  grid-template-columns: repeat(3, 510px);
+
+}
+
+.our-qualities__card {
+  background: #528DC9;
+  border-radius: 10px;
+  position: relative;
+
+
+
+}
+
+.our-qualities__card-icon {
+  position: absolute;
+  top: 34px;
+  left: 41px;
+
+  /* margin-bottom: 16px; */
+}
+
+.our-qualities__card-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #FFFFFF;
+  padding: 131px 0 0 41px;
+
+  margin-bottom: 20px;
+}
+
+.our-qualities__card-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding-left: 41px;
+  max-width: 433px;
+}
+
+.card-map {
+  background: transparent;
 }
