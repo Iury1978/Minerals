@@ -159,6 +159,7 @@ body {
 /* HEADER */
 .header {
   position: absolute;
+  width: 100%;
 }
 
 .creeping-line {
