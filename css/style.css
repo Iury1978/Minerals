@@ -303,7 +303,7 @@ body {
 
 /* section full range services */
 
-.full-range-services {
+.full-range__inner {
   background: linear-gradient(180deg, #5B7BB7 0%, #6196CB 100%);
   background-size: cover;
   background-repeat: no-repeat;
