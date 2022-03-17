@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div class="main-wrapper">
+  <div class="main-wrapper__creeping">
     <div class="creeping-line">
       <p class="creeping-line__name">Gold <span class="creeping-line__color-green">243.49$</span>
       </p>
@@ -34,11 +34,9 @@
   </div>
 
   <header class="header">
-
-
-    <div class="main-wrapper">
+   
       <div class = 'wrapper'> 
-      <div class="wrapper__nav">
+      <div class="container__nav">
 
         <img src="./src/logo-minerals.png" alt="логотип компании" class="header__logo">
 
@@ -138,15 +136,17 @@
 
       </div>
     </div>
-    </div>
+    
   </header>
+
+  
   <main class="main">
 
     <section class="full-range-services">
-      <div class="main-wrapper">
-        <div class="full-range__inner">
-      <div class="wrapper">
-        <div class="full-range-services__flex-container move-left">
+     
+        <div class="full-range__bg">
+     <div class="wrapper">
+        <div class="full-range-services__flex-container">
 
           <div class="full-range-services__left-part">
 
@@ -159,10 +159,10 @@
             </p>
 
             <div class="full-range-services__items">
-              <div class="full-range-services__item">Наличие опытных специалистов</div>
-              <div class="full-range-services__item">Современные методы в геологоразведке</div>
-              <div class="full-range-services__item">Налаженная сеть партнеров</div>
-              <div class="full-range-services__item">Постоянный контроль качества</div>
+              <div class="full-range-services__item full-range-services__item1">Наличие опытных специалистов</div>
+              <div class="full-range-services__item full-range-services__item2">Современные методы в геологоразведке</div>
+              <div class="full-range-services__item full-range-services__item3">Налаженная сеть партнеров</div>
+              <div class="full-range-services__item full-range-services__item4">Постоянный контроль качества</div>
             </div>
 
             <button type="submit" class="full-range-services_button button-blue">Оформить заявку</button>
@@ -175,18 +175,18 @@
         </div>
       </div>
       </div>
-    </div>
+    
     </section>
 
     <section class="about">
-      <div class="main-wrapper">
+     
         <div class="wrapper">
 
           <div class="about__description">
             <img src="./src/crystal.png" alt="Кристалл" class="about__img">
-            <div class="about__text">
+            <div class="about__desc">
               <h2 class="about__tilte">О компании</h2>
-              <p class="about__text">
+              <p class="about__text about_text_mb">
                 Мы хотим создать историю и стать полезными для нашей страны. Именно так мы думали когда основали нашу
                 компанию
                 Minerals Operating. Даже стало интересно что у нас получится, но мы уже сейчас проделали огромную
@@ -197,7 +197,8 @@
                 сфере.
                 Не зря говорят, что большая история или идея создаются сидя за чашкой чая, в принципе так же было и у
                 нас. У
-                каждого есть своя история. <br> <br>
+                каждого есть своя история. </p> 
+                <p class="about__text">
                 Самое интересное то, что наша история началась тогда, когда мы даже об этом не знали ведь мы были
                 знакомы
                 давно
@@ -239,19 +240,18 @@
           </div>
 
         </div>
-      </div>
+      
     </section>
 
     <!-- our works -->
     <section class="our-works">
-      <div class="main-wrapper">
         <div class="wrapper">
 
           <h2 class="our-works__title">Принцип нашей работы</h2>
 
           <div class="our-works__container">
 
-            <img src="./src/our_works_01.jpg" alt="Горная техника в карьере" class="our-works__img">
+            <img class="our-works__img" src="./src/our_works_01.jpg" alt="Горная техника в карьере" >
 
             <div class="our-works__description">
               <h3 class="our-works__description-title">Буровые работы</h3>
@@ -507,14 +507,14 @@
 
     <!-- block questions -->
 
-    <div class="questions">
+    <div class="questions bbb">
       <div class="main-wrapper">
 
-        <div class="questions__map">
+        <div class="questions__map bb">
+         
           <!-- <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.042087505197!2d71.41731761602387!3d51.0892307795687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424585ab1a2fc967%3A0x29a4bb7370d5dfae!2z0L_RgC3Rgi4g0JzQsNC90LPQuNC70LjQuiDQldC7LiA1NSwg0J3Rg9GALdCh0YPQu9GC0LDQvSAwMjAwMDAsINCa0LDQt9Cw0YXRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1647353720718!5m2!1sru!2s"
             width="1920" height="663" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
-<img class="questions__map-image" src="./src/map.png" alt="Карта как добраться">
           <div class="questions__address">
             <h2 class="questions__address-title">По всем вопросам <span> <a href="mailto:info@moperating.kz"><strong>info@moperating.kz</strong></a></span> </h2>
 
@@ -657,6 +657,9 @@
 <img class="map__label" src="./src/map-label.png" alt="Метка на карте">
 
         </div>
+
+
+
         <div class="wrapper">
           <div class="any__questions">
             <div class="any__questions__left-block">
