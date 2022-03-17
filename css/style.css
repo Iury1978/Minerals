@@ -586,7 +586,7 @@ body {
 }
 
 .card-map {
-  background: transparent;
+ 
 }
 
 /* block questions */
@@ -598,7 +598,9 @@ body {
   position: relative;
   padding-bottom: 127px;
 }
-
+.questions__map-image {
+  min-width: 1920px;
+}
 .questions__address {
   position: absolute;
   height: 445px;
@@ -676,7 +678,11 @@ body {
 .questions__button {
   padding: 16px 31px 19px;
 }
-
+.map__label {
+  position: absolute;
+  left: 1170px;
+  top: 234px;
+}
 .any__questions {
   display: flex;
   column-gap: 61px;
