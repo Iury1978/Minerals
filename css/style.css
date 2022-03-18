@@ -626,7 +626,7 @@ body {
 
 /* block questions */
 .map {
- 
+ margin-bottom: 134px;
 }
 
 .map__pic {
@@ -746,48 +746,44 @@ body {
   top: 236px;
 }
 
-
-
-
-
-
-
-
-
-.any__questions {
+/* feedback */
+.feedback-block {
+  margin-bottom: 134px;
+}
+.feedback {
   display: flex;
   column-gap: 61px;
   align-items: flex-end;
 }
 
-.any__questions__left-block {
+.feedback__left-block {
   width: 865px;
 }
 
-.left-block__title {
+.feedback__title {
   font-weight: 700;
   font-size: 45px;
   line-height: 46px;
   color: #FFFFFF;
-  margin-bottom: 35px;
+  margin-bottom: 33px;
 }
 
-.left-block__text {
+.feedback__text {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   color: #FFFFFF;
 }
 
-.left-block__text1 {
+.feedback__text1 {
   margin-bottom: 25px;
 }
 
-.left-block__text2 {
+.feedback__text2 {
   margin-bottom: 20px;
 }
 
-.forms__container {
+.feedback__forms-container {
   display: grid;
   column-gap: 14px;
   row-gap: 14px;
@@ -796,12 +792,12 @@ body {
   margin-bottom: 23px;
 }
 
-.forms__container>textarea {
+.feedback__forms-container>textarea {
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
-.form-properties {
+.feedback__form-properties {
   background: #FFFFFF;
   border-radius: 10px;
   border: none;
@@ -809,20 +805,20 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: #405267;
-  padding: 10px 0 10px 19px;
+  padding: 10px 0 10px 20px;
 }
 
-.button__container {
+.feedback__button-container {
   display: flex;
   column-gap: 28px;
   align-items: center;
 }
 
-.any__questions-right-block-button {
+.feedback__right-block-button {
   padding: 16px 31px 19px;
 }
 
-.any__questions-right-block-agreement {
+.feedback__right-block-agreement {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
