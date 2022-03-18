@@ -476,7 +476,9 @@ body {
 }
 
 /* our works */
-
+.our-works {
+  margin-bottom: 155px;
+}
 .our-works__title {
 
   font-weight: 700;
@@ -489,9 +491,11 @@ body {
 
 .our-works__container {
   display: flex;
+  justify-content: space-between;
   column-gap: 71px;
-  margin-bottom: 105px;
- 
+  row-gap: 101px;
+  /* margin-bottom: 105px; */
+ flex-wrap: wrap;
 }
 
 .our-works__img {
@@ -502,8 +506,15 @@ body {
 .our-works__description {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin-right: 24px;
+  align-items: flex-start;  
+}
+.our-works__description-right-shift {
+  margin-left: 15px;
+  margin-top: 4px;
+}
+.our-works__description-left-shift{
+  margin-right: 23px;
+  margin-top: 1px;
 }
 
 .our-works__description-title {
@@ -541,11 +552,6 @@ body {
   width: 237px;
 }
 
-/* сдвигаю весь блок при другом раскладе элементов */
-.text-image {
-  margin-right: 9px;
-  margin-top: 4px;
-}
 
 /* our-qualities */
 
@@ -555,9 +561,8 @@ body {
   line-height: 46px;
   text-align: center;
   color: #FFFFFF;
-  margin-top: 160px;
   text-transform: uppercase;
-  margin-bottom: 53px;
+  margin-bottom: 56px;
 }
 
 .our-qualities__cards {
