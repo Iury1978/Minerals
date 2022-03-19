@@ -139,7 +139,7 @@ h1, h2, h3, p {
   border: 1px solid rgb(27, 238, 150);
 }
 
-body {
+.body-index-html {
   font-family: 'Roboto';
   font-style: normal;
   background-color: #689ED4;
@@ -237,11 +237,6 @@ body {
   line-height: 19px;
 }
 
-.header__nav2 {
-  display: flex;
-  align-items: center;
-}
-
 .nav__request-call-from-email {
   display: flex;
   column-gap: 12px;
@@ -279,12 +274,12 @@ body {
 }
 
 .nav__search {
- 
-  margin-left: 20px;
+  margin-left: 19px;
+  margin-bottom: -7px;
 }
 
 .nav__russian-flag {
-
+  margin-bottom: -7px;
   margin-left: 17px;
   align-content: center;
 }
@@ -298,7 +293,7 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
-  margin-bottom: 7px;
+  margin-bottom: -5px;
 }
 
 .nav__select-lang:hover {
@@ -921,3 +916,49 @@ dd {
   bottom: 49px;
   z-index: 60;
 }
+
+/* PAGE ABOUT */
+
+/* HEADER */
+
+.body {
+  font-family: 'Roboto';
+  font-style: normal;
+  color: white;
+}
+.header__other-pages{
+ height: 80px;
+  background: url(/src/bg_menu.jpg) ;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.container__nav-other-pages{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  
+  /* background: transparent; */
+}
+.nav__list-other-pages {
+  display: flex;
+  column-gap: 56px;
+  margin-left: 498px;
+}
+
+.nav__request-call-from-phone-other-pages {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+  margin-left: 43px;
+}
+
+.nav__request-call-from-phone-other-pages>a {
+ 
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+}
+
