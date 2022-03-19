@@ -91,6 +91,7 @@ html {
   box-sizing: border-box;
 }
 
+
 *, *::after, *::before {
   box-sizing: inherit;
 }
@@ -148,8 +149,6 @@ body {
 .main-wrapper {
   max-width: 1920px;
   margin: 0 auto;
-
-
 }
 
 .wrapper {
@@ -165,10 +164,8 @@ body {
 }
 
 .main-wrapper__creeping {
-  max-width: 1920px;
+  width: 1920px;
   margin: 0 auto;
-
-
 }
 
 .creeping-line {
@@ -238,7 +235,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-
 }
 
 .header__nav2 {
@@ -253,7 +249,6 @@ body {
 }
 
 .nav__request-call-from-email>a {
-  display: inline-block;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -268,7 +263,7 @@ body {
 }
 
 .nav__request-call-from-phone>a {
-  display: inline-block;
+ 
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -276,7 +271,7 @@ body {
 }
 
 .nav__vertical-dash {
-  display: inline-block;
+ 
   width: 1px;
   height: 17px;
   background: #FFFFFF;
@@ -284,12 +279,12 @@ body {
 }
 
 .nav__search {
-  display: inline-block;
+ 
   margin-left: 20px;
 }
 
 .nav__russian-flag {
-  display: inline-block;
+
   margin-left: 17px;
   align-content: center;
 }
@@ -324,7 +319,7 @@ body {
   align-items: flex-end;
   margin-bottom: 217px;
   padding-top: 244px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   column-gap: 74px;
 }
 
@@ -349,7 +344,6 @@ body {
   width: 817px;
   display: flex;
   align-items: center;
-
   margin-bottom: 38px;
   margin-left: 15px;
   column-gap: 45px;
@@ -402,7 +396,6 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-
 }
 
 .full-range-services_button {
@@ -413,23 +406,21 @@ body {
   border-radius: 10px;
 }
 
-
-
 /* section about */
+
 .about__description {
   display: flex;
   align-items: center;
   column-gap: 89px;
   margin-top: 147px;
   margin-bottom: 82px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 
 }
 
 .about__img {
   margin-left: 51px;
   margin-bottom: -11px;
-
 }
 
 .about__tilte {
@@ -455,7 +446,7 @@ body {
 
 .about__cards {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   column-gap: 38px;
   margin-bottom: 153px;
@@ -487,6 +478,7 @@ body {
 }
 
 /* our works */
+
 .our-works {
   margin-bottom: 155px;
 }
@@ -506,13 +498,11 @@ body {
   justify-content: space-between;
   column-gap: 71px;
   row-gap: 101px;
-  /* margin-bottom: 105px; */
   flex-wrap: wrap;
 }
 
 .our-works__img {
   border-radius: 10px;
-
 }
 
 .our-works__description {
@@ -539,7 +529,6 @@ body {
   position: relative;
   margin-top: 11px;
   margin-bottom: 17px;
-
 }
 
 .our-works__description-title::before {
@@ -550,7 +539,6 @@ body {
   background: #FFFFFF;
   left: -14px;
   top: 7px;
-
 }
 
 .our-works__description-text {
@@ -565,7 +553,6 @@ body {
 .our-works__description-more {
   width: 237px;
 }
-
 
 /* our-qualities */
 
@@ -583,9 +570,9 @@ body {
   display: grid;
   column-gap: 35px;
   row-gap: 35px;
-  grid-template-columns: repeat(auto-fit, minmax(275px, 510px));
-   /* grid-template-rows: repeat(2, 275px);
-  grid-template-columns: repeat(3, 510px); */
+  /* grid-template-columns: repeat(auto-fit, minmax(275px, 510px)); */
+   grid-template-rows: repeat(2, 275px);
+  grid-template-columns: repeat(3, 510px);
   margin-bottom: 161px; 
 }
 
@@ -625,6 +612,7 @@ body {
 }
 
 /* block questions */
+
 .map {
  margin-bottom: 134px;
 }
@@ -691,28 +679,28 @@ body {
 
 .white-bar__text-icon_01::before {
   position: absolute;
-  content: url(../src/svg/questions_01_point.svg);
+  content: url(../src/svg/white-bar_01_point.svg);
   top: 160px;
   left: 49px;
 }
 
 .white-bar__text-icon_02::before {
   position: absolute;
-  content: url(../src/svg/questions_02_call.svg);
+  content: url(../src/svg/white-bar_02_call.svg);
   top: 162px;
   left: 422px;
 }
 
 .white-bar__text-icon_03::before {
   position: absolute;
-  content: url(../src/svg/questions_03_watch.svg);
+  content: url(../src/svg/white-bar_03_watch.svg);
   top: 261px;
   left: 47px;
 }
 
 .white-bar__text-icon_04::before {
   position: absolute;
-  content: url(../src/svg/questions_04_whatsapp.svg);
+  content: url(../src/svg/white-bar_04_whatsapp.svg);
   top: 261px;
   left: 422px;
 }
@@ -723,12 +711,10 @@ body {
   color: #7E8888;
 }
 
-
 .white-bar__footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .white-bar__social {
@@ -740,13 +726,8 @@ body {
   padding: 16px 31px 19px;
 }
 
-.map__label {
-  position: absolute;
-  left: 1170px;
-  top: 236px;
-}
-
 /* feedback */
+
 .feedback-block {
   margin-bottom: 134px;
 }
@@ -827,11 +808,11 @@ body {
 }
 
 /* footer */
+
 .footer {
   background: #1C1E21;
-  height: 426px;
+  min-height: 426px;
 }
-
 
 .footer__container_inner {
   display: flex;
@@ -840,9 +821,7 @@ body {
 
 .footer__wrapper {
   display: flex;
-  /* padding-left: 141px; */
   padding-top: 12px;
-  /* padding-right: 184px; */
   align-items: flex-start;
 }
 
@@ -868,7 +847,6 @@ body {
   line-height: 29px;
   color: #FFFFFF;
   width: 460px;
-
 }
 
 .footer__logo {
@@ -901,7 +879,6 @@ dd {
   align-items: center;
   column-gap: 17px;
   margin-top: 22px;
-
 }
 
 .footer__phone {
@@ -916,8 +893,6 @@ dd {
   column-gap: 19px;
   margin-top: 32px;
 }
-
-
 
 .footer__address {
   width: 365px;
