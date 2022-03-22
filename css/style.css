@@ -626,7 +626,7 @@ h1, h2, h3, p {
 /* block questions */
 
 .map {
-  margin-bottom: 134px;
+  /* margin-bottom: 134px; */
 }
 
 .map__pic {
@@ -755,6 +755,7 @@ h1, h2, h3, p {
 .feedback__title {
   color: #FFFFFF;
   margin-bottom: 33px;
+  padding-top: 134px;
 }
 
 .feedback__text {
@@ -1258,4 +1259,12 @@ margin-bottom: 67px;
   content: url(../src/svg/page-about-white-bar_03_watch.svg);
   top: 261px;
   left: 47px;
+}
+
+.footer__copyright_rights {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
 }
