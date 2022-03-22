@@ -1124,12 +1124,12 @@ dd {
 .element2000::after {
   position: absolute;
   content: "";
-  left:76px;
+  left: 76px;
   top: 33px;
   height: 6px;
   width: 1524px;
   background: #F9FAFD;
- 
+
 }
 
 .element2005 {
@@ -1160,4 +1160,39 @@ dd {
   color: #405267;
   text-align: left;
   margin-bottom: 80px;
+}
+
+/* section stuff */
+
+.staff__title {
+  text-align: center;
+  color: #102441;
+  margin-bottom: 56px;
+  padding-top: 60px;
+}
+.staffs__items {
+  display: flex;
+  column-gap: 28px;
+}
+.staffs__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.staffs__pic {
+margin-bottom: 23px;
+}
+.staffs__name {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #141414;
+  margin-bottom: 8px;
+}
+
+.staffs__position {
+  font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #405267;
 }
