@@ -139,6 +139,12 @@ h1, h2, h3, p {
   border: 1px solid rgb(27, 238, 150);
 }
 
+.body {
+  font-family: 'Roboto';
+  font-style: normal;
+  color: white;
+}
+
 .body-index-html {
   font-family: 'Roboto';
   font-style: normal;
@@ -325,6 +331,18 @@ h1, h2, h3, p {
   color: #FFFFFF;
 }
 
+.style-for-h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 46px;
+}
+
+.style-for-h3 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 46px;
+}
+
 .full-range-services__title {
   margin-bottom: 24px;
 }
@@ -421,9 +439,6 @@ h1, h2, h3, p {
 }
 
 .about__tilte {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 46px;
   color: #FFFFFF;
   margin-bottom: 19px;
 }
@@ -481,10 +496,6 @@ h1, h2, h3, p {
 }
 
 .our-works__title {
-
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 46px;
   color: #FFFFFF;
   text-align: center;
   margin-bottom: 59px;
@@ -519,9 +530,6 @@ h1, h2, h3, p {
 }
 
 .our-works__description-title {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 46px;
   color: #FFFFFF;
   position: relative;
   margin-top: 11px;
@@ -554,9 +562,6 @@ h1, h2, h3, p {
 /* our-qualities */
 
 .our-qualities__title {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 46px;
   text-align: center;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -643,9 +648,6 @@ h1, h2, h3, p {
 }
 
 .map__white-bar-title {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 47px;
   color: #102441;
   margin-bottom: 21px;
 }
@@ -741,9 +743,6 @@ h1, h2, h3, p {
 }
 
 .feedback__title {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 46px;
   color: #FFFFFF;
   margin-bottom: 33px;
 }
@@ -925,10 +924,9 @@ dd {
 
 /* HEADER */
 
-.body {
-  font-family: 'Roboto';
-  font-style: normal;
-  color: white;
+
+.body-about {
+  background: #F1F4F8;
 }
 
 .header__other-pages {
@@ -943,8 +941,6 @@ dd {
   justify-content: flex-start;
   align-items: center;
   height: 80px;
-
-  /* background: transparent; */
 }
 
 .nav__list-other-pages {
@@ -961,7 +957,6 @@ dd {
 }
 
 .nav__request-call-from-phone-other-pages>a {
-
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
@@ -975,18 +970,21 @@ dd {
   height: 419px;
   align-items: center;
   position: relative;
+  margin-bottom: 132px;
 }
 
 .page-about-h1 {
   text-align: center;
   padding-top: 107px;
 }
+
 .page-about__about-desc {
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 31px;
 }
+
 .page-about__about-text {
   font-weight: 400;
   font-size: 20px;
@@ -994,4 +992,69 @@ dd {
   color: #FFFFFF;
   width: 813px;
   text-align: center;
+  margin-bottom: 295px;
+}
+
+.page-about__about-h2 {
+  color: #102441;
+  margin-bottom: 224px;
+}
+
+.page-about__about-desc2 {
+  display: flex;
+  column-gap: 63px;
+  margin-bottom: 146px;
+
+}
+
+.page-about__about-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.page-about__about-right {
+  height: 414px;
+  overflow: auto;
+  width: 1284px;
+
+}
+
+.page-about__about-right>p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #405267;
+}
+
+/* page About our principied */
+
+.our-principles__title {
+  text-align: center;
+  color: #102441;
+  margin-bottom: 85px;
+}
+
+
+.our-principles__card {
+  background: #F9FAFD;
+  display: flex;
+  border-radius: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 275px;
+  padding-left: 41px;
+  padding-bottom: 43px;
+}
+
+.our-principles__card-title {
+  color: #141414;
+}
+
+.our-principles__card-text {
+  color: #405267;
+}
+
+.our-principles__card-icon>svg {
+  color: #1D80EB;
 }
