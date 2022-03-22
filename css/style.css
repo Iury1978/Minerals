@@ -1173,6 +1173,7 @@ dd {
 .staffs__items {
   display: flex;
   column-gap: 28px;
+  margin-bottom: 137px;
 }
 .staffs__item {
   display: flex;
@@ -1195,4 +1196,18 @@ margin-bottom: 23px;
 font-size: 20px;
 line-height: 26px;
 color: #405267;
+}
+
+/* Our partners */
+
+.our-partners__title {
+text-align: center;
+color: #102441;
+margin-bottom: 67px;
+}
+
+.brands__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
