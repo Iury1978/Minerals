@@ -1058,3 +1058,106 @@ dd {
 .our-principles__card-icon>svg {
   color: #1D80EB;
 }
+
+.certificates {
+  background: url(/src/page_about_bg_certificates.jpg);
+}
+
+.certificates__title {
+  text-align: center;
+  color: #102441;
+  padding-bottom: 46px;
+  padding-top: 94px;
+}
+
+.certificates__pictures {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.certificates-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #405267;
+  margin-bottom: 142px;
+}
+
+.company-history__title {
+  text-align: center;
+  color: #102441;
+  margin-bottom: 59px;
+}
+
+
+.company-history__graph {
+  display: flex;
+  column-gap: 72px;
+}
+
+.company-history__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 27px;
+}
+
+.company-history__element {
+  position: relative;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 76px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+
+
+.element2000 {
+  background: #203E75;
+  position: relative;
+}
+
+.element2000::after {
+  position: absolute;
+  content: "";
+  left:76px;
+  top: 33px;
+  height: 6px;
+  width: 1524px;
+  background: #F9FAFD;
+ 
+}
+
+.element2005 {
+  background: #30569C;
+}
+
+.element2007 {
+  background: #225DCA;
+}
+
+.element2009 {
+  background: #3972DC;
+}
+
+.element2012 {
+  background: #236CF2;
+}
+
+.element2015 {
+  background: #2568E3;
+}
+
+.company-history__desc {
+  width: 211px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #405267;
+  text-align: left;
+  margin-bottom: 80px;
+}
