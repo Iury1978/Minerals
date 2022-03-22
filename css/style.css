@@ -412,6 +412,16 @@ h1, h2, h3, p {
   line-height: 21px;
   text-align: center;
 }
+.button-dark {
+  padding: 16px 20px 19px;
+  background: #203E75;
+  border: none;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
 
 .full-range-services_button {
   padding: 16px 31px 19px;
@@ -1210,4 +1220,42 @@ margin-bottom: 67px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  margin-bottom: 141px;
+}
+
+/*  <!-- page About  block questions --> */
+
+.map__page-about>span {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #203E75;
+}
+
+.white-bar__text-title-page-about {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #102441;
+}
+
+.white-bar__page-about-text-icon_01::before {
+  position: absolute;
+  content: url(../src/svg/page-about-white-bar_01_point.svg);
+  top: 160px;
+  left: 49px;
+}
+
+.white-bar__page-about-text-icon_02::before {
+  position: absolute;
+  content: url(../src/svg/page-about-white-bar_02_call.svg);
+  top: 162px;
+  left: 422px;
+}
+
+.white-bar__page-about-text-icon_03::before {
+  position: absolute;
+  content: url(../src/svg/page-about-white-bar_03_watch.svg);
+  top: 261px;
+  left: 47px;
 }
