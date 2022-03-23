@@ -146,21 +146,12 @@ h1, h2, h3, p {
 }
 
 .body-index-html {
-  font-family: 'Roboto';
-  font-style: normal;
   background-color: #689ED4;
-  color: white;
 }
 
 .main-wrapper {
   max-width: 1920px;
   margin: 0 auto;
-}
-
-.wrapper {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 /* HEADER */
@@ -169,14 +160,11 @@ h1, h2, h3, p {
   width: 100%;
 }
 
-.main-wrapper__creeping {
-  width: 1920px;
-  margin: 0 auto;
+.creeping-line-bg {
+  background: #12161C;
 }
-
 .creeping-line {
   height: 48px;
-  background: #12161C;
   display: flex;
   column-gap: 97px;
   align-items: center;
@@ -818,9 +806,9 @@ h1, h2, h3, p {
 
 /* footer */
 
-.footer {
+.footer-bg {
   background: #1C1E21;
-  min-height: 426px;
+  
 }
 
 .footer__container_inner {
@@ -917,8 +905,8 @@ dd {
   text-align: center;
   color: #FFFFFF;
   margin-top: 79px;
-  z-index: 60;
 }
+
 
 .footer__copyright::before {
   position: absolute;
@@ -931,6 +919,14 @@ dd {
   z-index: 60;
 }
 
+.footer__copyright_rights {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 32px;
+}
 /* PAGE ABOUT */
 
 /* HEADER */
@@ -976,12 +972,15 @@ dd {
 
 /*  page About section About */
 
-.page-about__about {
+.page-about__about-bg {
   background-image: url('/src/page_about_bg_section_about.jpg');
   height: 419px;
   align-items: center;
   position: relative;
   margin-bottom: 132px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  align-items: center;
 }
 
 .page-about-h1 {
@@ -989,7 +988,7 @@ dd {
   padding-top: 107px;
 }
 
-.page-about__about-desc {
+.cont-flex {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1070,7 +1069,7 @@ dd {
   color: #1D80EB;
 }
 
-.certificates {
+.certificates-bg {
   background: url(/src/page_about_bg_certificates.jpg);
 }
 
@@ -1261,10 +1260,99 @@ margin-bottom: 67px;
   left: 47px;
 }
 
-.footer__copyright_rights {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+
+
+/* page Services */
+
+
+.page-services__services {
+  background-image: url('/src/page_services_section_services.jpg');
+  background-repeat: no-repeat;
+
+  height: 419px;
+  align-items: center;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.page-services-h1 {
   text-align: center;
+  padding-top: 107px;
+}
+
+.page-services__services-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
   color: #FFFFFF;
+  width: 813px;
+  text-align: center;
+  margin-bottom: 295px;
+}
+
+/*  page Services our vorks */
+
+.services__container{
+  display: flex;
+  column-gap: 71px; 
+  align-items: flex-start;
+}
+
+.services__container-big-text{
+  display: flex;
+  column-gap: 34px; 
+  align-items: flex-start;
+}
+
+.services__container-margin-b
+{margin-bottom: 148px;}
+
+.services__container-pt-pl {
+  padding-top: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 80px;
+}
+.services__img {
+  border-radius: 0px;
+}
+
+.services__description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.services__description-title {
+  color: #102441;
+  position: relative;
+  margin-top: 11px;
+  margin-bottom: 17px;
+}
+
+.services__description-title::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 32px;
+  background:  #102441;
+  left: -14px;
+  top: 7px;
+}
+
+.services__description-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #405267;
+  margin-bottom: 41px;
+  width: 765px;
+}
+
+.services__description-more {
+  width: 237px;
+}
+
+.very-width {
+  width: 809px;
 }
