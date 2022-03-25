@@ -728,8 +728,8 @@ h1, h2, h3, p {
 
 /* feedback */
 
-.feedback-block {
-  margin-bottom: 134px;
+.contacts__feedback-block {
+   margin-bottom: 82px;
 }
 
 .feedback {
@@ -1878,21 +1878,23 @@ dd {
   padding: 0px 8px;
   margin-bottom: 11px;
 }
+
 .one-news__title {
   font-weight: 700;
-font-size: 45px;
-line-height: 46px;
-color: #102441;
-margin-bottom: 21px;
+  font-size: 45px;
+  line-height: 46px;
+  color: #102441;
+  margin-bottom: 21px;
 }
 
 .one-news__desc {
   font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-color: #405267;
-width: 1025px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #405267;
+  width: 1025px;
 }
+
 .one-news__desc-mb {
   margin-bottom: 21px;
 }
@@ -1932,9 +1934,207 @@ width: 1025px;
 
 .one-news__desc2 {
   font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #405267;
+  width: 1025px;
+  margin-bottom: 44px;
+}
+
+
+/* page contacts */
+
+
+
+
+.contacts__grid-container {
+  display: grid;
+  column-gap: 14px;
+  grid-template-columns: 1fr 699px;
+  margin-top: 116px;
+  /* margin-bottom: 23px; */
+}
+
+.left__contacts-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 56px;
+  color: #102441;
+  margin-bottom: 23px;
+}
+
+.left__contacts-title>span {
+  color: #203E75;
+}
+
+.right__contacts-grid-container {
+
+  display: grid;
+  column-gap: 21px;
+  row-gap: 30px;
+  grid-template-columns: 340px 1fr;
+  margin-left: 139px;
+  margin-top: 10px;
+}
+
+.right__contacts__text-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #7E8888;
+}
+
+.right__contacts-page-contnacts {
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #102441;
+}
+
+
+.contacts-text-icon_01::before {
+  position: absolute;
+  content: url(../src/svg/white-bar_01_point.svg);
+  top: 0px;
+  left: -25px;
+}
+
+.contacts-text-icon_02::before {
+  position: absolute;
+  content: url(../src/svg/white-bar_02_call.svg);
+  top: 0px;
+  left: -25px;
+}
+
+.contacts-text-icon_03::before {
+  position: absolute;
+  content: url(../src/svg/white-bar_03_watch.svg);
+  top: 0px;
+  left: -25px;
+}
+
+.contacts__text-icon_04::before {
+  position: absolute;
+  content: url(../src/svg/white-bar_04_whatsapp.svg);
+  top: 0px;
+  left: -25px;
+}
+
+.contacts__text-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #7E8888;
+}
+
+.contacts__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts__social {
+  display: flex;
+  column-gap: 24px;
+}
+
+.contacts__pic {
+  background: url(../src/contacts_map.png) no-repeat center;
+  height: 570px;
+  background-size: cover;
+  margin-top: 67px;
+  margin-bottom: 79px;
+}
+
+/* Contacts feedback */
+
+.feedback-block {
+  margin-bottom: 134px;
+}
+
+.contacts__feedback {
+  display: flex;
+  column-gap: 61px;
+  align-items: flex-end;
+}
+
+.contacts__feedback-left-block {
+  width: 865px;
+}
+
+.contacts__feedback-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 46px;
+  color: #102441;
+  margin-bottom: 31px;
+}
+
+.contacts__feedback-text {
+  font-weight: 400;
 font-size: 20px;
 line-height: 28px;
 color: #405267;
-width: 1025px;
-margin-bottom: 44px;
+}
+.contacts__feedback-text-email {
+  font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+color: #141414;
+}
+.contacts__feedback-text-email>a {
+  color: #1D80EB;
+}
+
+.feedback__text1 {
+  margin-bottom: 25px;
+}
+
+.feedback__text2 {
+  margin-bottom: 20px;
+}
+
+.feedback__forms-container {
+  display: grid;
+  column-gap: 14px;
+  row-gap: 14px;
+  grid-template-columns: 330px 330px;
+  grid-template-rows: 48px 130px;
+  margin-bottom: 23px;
+}
+
+.feedback__forms-container>textarea {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.contacts-feedback__form-properties {
+  background: #E3EAF2;
+  border-radius: 10px;
+  border: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #405267;
+  padding: 10px 0 10px 20px;
+  
+}
+
+.feedback__button-container {
+  display: flex;
+  column-gap: 28px;
+  align-items: center;
+}
+
+.feedback__right-block-button {
+  padding: 16px 31px 19px;
+}
+
+.contacts-feedback__right-block-agreement {
+  font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #405267;
+  width: 387px;
 }
